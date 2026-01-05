@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Easy Islam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌙 Easy Islam</h1>
+    <p>Learn Islam simply, correctly, and peacefully</p>
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+  </header>
+
+  <main class="container">
+
+    <div class="card">
+      <button onclick="showSection('quran')">📖 Qur’an Verses</button>
+      <button onclick="showSection('hadith')">📜 Sahih Hadith</button>
+      <button onclick="showSection('quiz')">📝 Islamic Quiz</button>
+    </div>
+
+    <div id="content" class="content-card"></div>
+
+  </main>
+
+  <footer>
+    <p>Based on Qur’an and Sahih Hadith · For learning purposes only</p>
+  </footer>
+
+  <!-- JS must be LAST -->
+  <script src="script.js"></script>
+  <script src="hadith.js"></script>
+
+</body>
+</html>
